@@ -1,0 +1,108 @@
+
+@media only screen and(max-width:900px)  {
+    #welcome-title{
+        font-size: 2em;
+    }
+    
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to {width:100%}
+  }
+
+  @-webkit-keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+@-moz-keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+@keyframes fading {
+    from {
+        opacity: 0;
+    }
+    to {
+         opacity: 1;   
+    }
+}
+
+
+body{
+    background-color: rgb(19, 19, 19);
+}
+
+#cursor{
+    font-size: 52px;
+}
+
+
+.container{
+    display:inline-block;
+    font-family: 'VT323', monospace;
+    border-right: .5em green;
+    
+  }
+  
+  #welcome-title {
+    color:green;
+    margin:auto;
+    height:auto;
+    text-align: center;
+    display:block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    animation:typing 3.75s forwards;
+    font-size: 4.5em;
+  }
+
+  
+  #enter_form{
+    color:green;
+    font-family: 'VT323', monospace;
+    margin:auto;
+    height:auto;
+    text-align: center;
+    display:block;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    opacity: 0;
+    -webkit-animation: fading ease-in 15s;
+    animation: fading ease-in 15s;
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+    font-size: 3.5em;
+  }
+
+  .fade {
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    }
+
+  .form_class{
+    border:none;
+    background-color: rgb(19, 19, 19);
+    color: green;
+    font-family: 'VT323', monospace;
+    font-size:75px;
+    padding: 15px;
+    font-size: .5em;
+    border-color: rgb(19, 19, 19);
+    outline: none;
+    
+  }
+ 
