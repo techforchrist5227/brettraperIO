@@ -1,8 +1,14 @@
+
+![20220228_083359](https://user-images.githubusercontent.com/72267696/218082908-de1602c6-603d-417d-b62d-42d28ecbbec9.jpg)
+
+
+
 # brettraperIO
 This is my personal website project.  This will outline my projects and experience. 
 
 
 ABOUT ME
+
 
 I'm a versatile developer, with experience in building web platforms.
 I like accessibility, performance and robust code. In addition, I also like to help and communicate as much as I can in discord (scrimba, donthedeveloper, and AncientBeasts Game) and on coding youtube channel chats during live streams. I try to be as helpful and communicative as possible during projects to increase the efficiency of development and customer satisfaction.  Working for a small company (team of 3 including myself managing 1000 users)and experience in the military has helped with increasing my communication and teamwork skills. 
