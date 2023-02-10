@@ -1,5 +1,4 @@
 
-![20220228_083359](https://user-images.githubusercontent.com/72267696/218082908-de1602c6-603d-417d-b62d-42d28ecbbec9.jpg style: width="20px";)
 
 
 
