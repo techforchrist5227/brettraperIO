@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+    transform: 3s;
+}
+
+h3{
+    font-family: poppins;
+}
+.imhiding{
+    opacity: 0;
+    transition:all 3s;
+}
+
+.show{
+    opacity: 1;
+    transition:3s;
+}
+
+.image-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .grid-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .grid-content {
+    display: flex;
+  }
+  
+  .scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .scroll-left {
+    left: 10px;
+  }
+  
+  .scroll-right {
+    right: 10px;
+  }
+  
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .btn {
+    padding: 0.5rem 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+    transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+
+  }
+  
+  
+
+  .nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .content {
+    margin-top: 50px; /* Add margin to the top of your content to prevent it from being overlapped by the fixed navbar */
+  }
+  
+
+  
+  
